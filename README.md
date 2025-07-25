@@ -70,7 +70,7 @@ MATLAB® and Symbolic Math Toolbox™ are used throughout, and Statistics and Ma
 ## [**LineIntegrals.m**](Scripts/LineIntegrals.m) 
 ||||
 | :-- | :-- | :-- |
-| <img src="Images/image_13.png" width="171" alt="image_13.png"> <br>  | **In this script, students will...** <br> $\bullet$ Compute line integrals given a path and vector field <br> $\bullet$ Identify conservative vector fields and use this to compute line integrals <br> $\bullet$ Apply Green's Theorem to compute area <br>  | **Academic disciplines** <br> $\bullet$ Electrical Engineering <br> $\bullet$ Physics <br> $\bullet$ Mathematics <br>   |
+| <img src="Images/LineIntegral.png" width="171" alt="LineIntegral.png"> <br>  | **In this script, students will...** <br> $\bullet$ Compute line integrals given a path and vector field <br> $\bullet$ Identify conservative vector fields and use this to compute line integrals <br> $\bullet$ Apply Green's Theorem to compute area <br>  | **Academic disciplines** <br> $\bullet$ Electrical Engineering <br> $\bullet$ Physics <br> $\bullet$ Mathematics <br>   |
 
 ## **MultipleIntegrals.m** (planned)
 ||||
@@ -80,7 +80,7 @@ MATLAB® and Symbolic Math Toolbox™ are used throughout, and Statistics and Ma
 ## **SurfaceIntegrals.m** (planned)
 ||||
 | :-- | :-- | :-- |
-| <img src="Images/image_14.png" width="171" alt="image_14.png"> <br>  | **In this script, students will...** <br> $\bullet$ Explore the concepts of control surfaces and control volumes <br> $\bullet$ Use the divergence theorem <br>  | **Academic disciplines** <br> $\bullet$ Electrical Engineering <br> $\bullet$ Physics <br> $\bullet$ Mathematics <br>   |
+| <img src="Images/ControlSurface.png" width="171" alt="ControlSurface.png"> <br>  | **In this script, students will...** <br> $\bullet$ Explore the concepts of control surfaces and control volumes <br> $\bullet$ Use the divergence theorem <br>  | **Academic disciplines** <br> $\bullet$ Electrical Engineering <br> $\bullet$ Physics <br> $\bullet$ Mathematics <br>   |
 
 <a id="H_F61733D7"></a>
 
