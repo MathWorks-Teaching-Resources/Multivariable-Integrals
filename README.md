@@ -5,7 +5,7 @@
 <a id="H_053613DF"></a>
 
 
-[![View on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/XXXXX-PROJECTNAME) or [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Multivariable-Integrals&project=Integrals.prj&file=README.mlx)
+[![View Multivariable: Integrals on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/181588-multivariable-integrals) or [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Multivariable-Integrals&project=Integrals.prj&file=README.mlx)
 
 [![MATLAB Versions Tested](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FMathWorks-Teaching-Resources%2FMultivariable-Integrals%2Frelease%2FImages%2FTestedWith.json)](https://MathWorks-Teaching-Resources.github.io/Multivariable-Integrals)
 
@@ -66,15 +66,16 @@ MATLAB® and Symbolic Math Toolbox™ are used throughout, and Statistics and Ma
 <a id="H_E8C62B23"></a>
 
 # Scripts
-## **MultipleIntegrals.m** (planned)
-||||
-| :-- | :-- | :-- |
-| <img src="Images/IrregularMeasurement.png" width="171" alt="IrregularMeasurement.png"> <br>  | **In this script, students will...** <br> $\bullet$ Compute and visualize double and triple integrals <br> $\bullet$ Use change of variables to simplify and evaluate multiple integrals <br>  | **Academic disciplines** <br> $\bullet$ Physics <br> $\bullet$ Mathematics <br>   |
 
 ## [**LineIntegrals.m**](Scripts/LineIntegrals.m) 
 ||||
 | :-- | :-- | :-- |
 | <img src="Images/image_13.png" width="171" alt="image_13.png"> <br>  | **In this script, students will...** <br> $\bullet$ Compute line integrals given a path and vector field <br> $\bullet$ Identify conservative vector fields and use this to compute line integrals <br> $\bullet$ Apply Green's Theorem to compute area <br>  | **Academic disciplines** <br> $\bullet$ Electrical Engineering <br> $\bullet$ Physics <br> $\bullet$ Mathematics <br>   |
+
+## **MultipleIntegrals.m** (planned)
+||||
+| :-- | :-- | :-- |
+| <img src="Images/IrregularMeasurement.png" width="171" alt="IrregularMeasurement.png"> <br>  | **In this script, students will...** <br> $\bullet$ Compute and visualize double and triple integrals <br> $\bullet$ Use change of variables to simplify and evaluate multiple integrals <br>  | **Academic disciplines** <br> $\bullet$ Physics <br> $\bullet$ Mathematics <br>   |
 
 ## **SurfaceIntegrals.m** (planned)
 ||||
