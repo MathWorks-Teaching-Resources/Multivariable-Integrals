@@ -67,7 +67,7 @@ MATLAB® and Symbolic Math Toolbox™ are used throughout, and Statistics and Ma
 
 # Scripts
 
-## [**LineIntegrals.m**](Scripts/LineIntegrals.m) 
+## [**LineIntegrals.mlx**](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Multivariable-Integrals&project=Integrals.prj&file=Scripts/LineIntegrals.mlx)
 ||||
 | :-- | :-- | :-- |
 | <img src="Images/LineIntegral.png" width="171" alt="LineIntegral.png"> <br>  | **In this script, students will...** <br> $\bullet$ Compute line integrals given a path and vector field <br> $\bullet$ Identify conservative vector fields and use this to compute line integrals <br> $\bullet$ Apply Green's Theorem to compute area <br>  | **Academic disciplines** <br> $\bullet$ Electrical Engineering <br> $\bullet$ Physics <br> $\bullet$ Mathematics <br>   |
