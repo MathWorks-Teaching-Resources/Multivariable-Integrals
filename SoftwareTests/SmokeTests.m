@@ -18,7 +18,7 @@ classdef SmokeTests < matlab.unittest.TestCase
         function File = RetrieveFile(Project) %#ok<INUSD>
             % Retrieve student template files:
             RootFolder = currentProject().RootFolder;
-            File = dir(fullfile(RootFolder,"Scripts","*.m*"));
+            File = dir(fullfile(RootFolder,"Scripts","*.mlx"));
             File = {File.name}; 
         end
 
@@ -117,7 +117,7 @@ classdef SmokeTests < matlab.unittest.TestCase
     methods (Access = private)
 
        function Path = CheckPreFile(testCase,Filename)
-            PreFile = "Pre"+Filename;
+            PreFile = "Pre"+replace(Filename,".mlx",".m");
             PreFilePath = fullfile(testCase.RootFolder,"SoftwareTests","PreFiles",PreFile);
             if ~isfolder(fullfile(testCase.RootFolder,"SoftwareTests/PreFiles"))
                 mkdir(fullfile(testCase.RootFolder,"SoftwareTests/PreFiles"))
@@ -133,7 +133,7 @@ classdef SmokeTests < matlab.unittest.TestCase
         end
 
         function Path = CheckPostFile(testCase,Filename)
-            PostFile = "Post"+ Filename;
+            PostFile = "Post"+replace(Filename,".mlx",".m");
             PostFilePath = fullfile(testCase.RootFolder,"SoftwareTests","PostFiles",PostFile);
             if ~isfolder(fullfile(testCase.RootFolder,"SoftwareTests/PostFiles"))
                 mkdir(fullfile(testCase.RootFolder,"SoftwareTests/PostFiles"))

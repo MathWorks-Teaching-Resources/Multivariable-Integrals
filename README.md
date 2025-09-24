@@ -4,6 +4,7 @@
 # <span style="color:rgb(213,80,0)">Multivariable Calculus: Integrals</span>
 <a id="H_053613DF"></a>
 
+Learn concepts and practice computing multiple integrals, line integrals, and surface integrals.
 
 [![View Multivariable: Integrals on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/181588-multivariable-integrals) or [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Multivariable-Integrals&project=Integrals.prj&file=README.mlx)
 
@@ -28,7 +29,7 @@ The instructions inside the live scripts will guide you through the exercises an
 
 ## Contact Us
 
-Solutions are available upon instructor request. Contact the [MathWorks teaching resources team](mailto:onlineteaching@mathworks.com) if you would like to request solutions, provide feedback, or if you have a question.
+Contact the [MathWorks Educator Content Development Team](mailto:onlineteaching@mathworks.com) if you would like to request assistance, provide feedback, or if you have a question.
 
 <a id="H_30BC7141"></a>
 
@@ -67,7 +68,7 @@ MATLAB® and Symbolic Math Toolbox™ are used throughout, and Statistics and Ma
 
 # Scripts
 
-## [**LineIntegrals.mlx**](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Multivariable-Integrals&project=Integrals.prj&file=Scripts/LineIntegrals.mlx)
+## [**LineIntegrals.m**](Scripts/LineIntegrals.m) 
 ||||
 | :-- | :-- | :-- |
 | <img src="Images/LineIntegral.png" width="171" alt="LineIntegral.png"> <br>  | **In this script, students will...** <br> $\bullet$ Compute line integrals given a path and vector field <br> $\bullet$ Identify conservative vector fields and use this to compute line integrals <br> $\bullet$ Apply Green's Theorem to compute area <br>  | **Academic disciplines** <br> $\bullet$ Electrical Engineering <br> $\bullet$ Physics <br> $\bullet$ Mathematics <br>   |
@@ -103,7 +104,7 @@ Or feel free to explore our other [modular courseware content](https://www.mathw
 
 # Contribute 
 
-Looking for more? Find an issue? Have a suggestion? Please contact the [MathWorks teaching resources team](mailto:%20onlineteaching@mathworks.com). If you want to contribute directly to this project, you can find information about how to do so in the [CONTRIBUTING.md](https://github.com/MathWorks-Teaching-Resources/Multivariable-Integrals/blob/release/CONTRIBUTING.md) page on GitHub.
+Looking for more? Find an issue? Have a suggestion? Please contact the [MathWorks Educator Content Development Team](mailto:%20onlineteaching@mathworks.com). If you want to contribute directly to this project, you can find information about how to do so in the [CONTRIBUTING.md](https://github.com/MathWorks-Teaching-Resources/Multivariable-Integrals/blob/release/CONTRIBUTING.md) page on GitHub.
 
 
 *©* Copyright 2025 The MathWorks, Inc
