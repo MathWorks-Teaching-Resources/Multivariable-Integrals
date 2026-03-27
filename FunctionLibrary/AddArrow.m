@@ -23,6 +23,7 @@ function AddArrow(ax,pt1,pt2,opts)
     dim = length(pt1);
     % Ensure both points have the same length
     assert(length(pt1)==length(pt2))
+    assert(dim < 4)
     
     % Calculate the scale based on the axes limits
     xScale = range(ax.XLim);
@@ -70,7 +71,7 @@ function AddArrow(ax,pt1,pt2,opts)
     elseif dim == 2
         perpdir = [-slope(2) slope(1)];
     else
-        error("Unexpected dimension: " + dim)
+        error("AddArrow:IncorrectDimension","Unexpected dimension: " + dim)
     end
     
     % Normalize the perpendicular direction

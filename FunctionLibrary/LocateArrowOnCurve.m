@@ -32,10 +32,11 @@ end
             end
         else
             MidIdx = ceil(NumElements/2); % Calculate the index of the middle element
-            MidPoint = Vals{:}(MidIdx); % Get the middle point
-            Slope = Vals{:}(MidIdx+1)-Vals{:}(MidIdx-1); % Calculate the slope
-            
+            MidPoint = zeros(size(pt1));
+            Slope = zeros(size(pt1));
             for dim = 1:MyDim
+                MidPoint(dim) = Vals{dim}(MidIdx); % Get the middle point
+                Slope(dim) = Vals{dim}(MidIdx+1)-Vals{dim}(MidIdx-1); % Calculate the slope
                 pt1(dim) = MidPoint(dim)-0.1*Slope(dim); % Adjust pt1 based on slope
                 pt2(dim) = MidPoint(dim)+0.1*Slope(dim); % Adjust pt2 based on slope
             end
